@@ -1,6 +1,6 @@
 --TEST--
 BBCODE Invalid quote segfaults
---SKIP--
+--SKIPIF--
 <?php
 if (!extension_loaded('bbcode')){
 	die ('skip bbcode not loadable');
